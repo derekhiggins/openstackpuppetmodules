@@ -1,0 +1,25 @@
+
+A collection of puppet modules for running openstack on RHEL, collected from
+
+https://github.com/puppetlabs/puppetlabs-glance.git
+https://github.com/puppetlabs/puppetlabs-horizon.git
+https://github.com/puppetlabs/puppetlabs-keystone.git
+https://github.com/puppetlabs/puppetlabs-nova.git
+https://github.com/puppetlabs/puppetlabs-openstack.git
+https://github.com/puppetlabs/puppetlabs-swift.git
+https://github.com/puppetlabs/puppetlabs-cinder.git
+https://github.com/puppetlabs/puppetlabs-stdlib.git
+https://github.com/puppetlabs/puppetlabs-sysctl.git
+https://github.com/puppetlabs/puppetlabs-mysql.git
+https://github.com/puppetlabs/puppetlabs-concat.git
+https://github.com/puppetlabs/puppetlabs-create_resources.git
+https://github.com/puppetlabs/puppetlabs-rsync.git
+https://github.com/puppetlabs/puppetlabs-xinetd.git
+https://github.com/puppetlabs/puppetlabs-apache.git
+https://github.com/lstanden/puppetlabs-firewall.git
+https://github.com/saz/puppet-memcached.git
+https://github.com/saz/puppet-ssh.git
+https://github.com/cprice-puppet/puppetlabs-inifile.git
+https://github.com/derekhiggins/puppet-qpid.git
+https://github.com/derekhiggins/puppet-vlan.git
+
