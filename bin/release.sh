@@ -10,5 +10,11 @@ if [ "$1" = "release" ] ; then
     TYPE=""
 fi
 
-tar -czf dist/openstackpuppetmodules-${VERSION}${TYPE}${SNAPTAG}.tar.gz --exclude='.git*' modules 
+VERSIONEDNAME=openstackpuppetmodules-${VERSION}${TYPE}${SNAPTAG}
+
+tar -cvzf dist/${VERSIONEDNAME}.tar.gz \
+    --exclude='.git*' \
+    --transform="s,^,${VERSIONEDNAME}/,S" \
+    --show-transformed-names \
+    modules LICENSE README
 
